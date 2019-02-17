@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Roboto");
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Pacifico', cursive;
+
+$primary: #428bca;
+
+body {
+  background: $primary;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1.logo {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 4rem;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
